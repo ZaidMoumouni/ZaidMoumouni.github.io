@@ -1,5 +1,5 @@
 // COUNTDOWN TIMER
-const target = new Date('2022-01-01'); // replace with anniversary
+const target = new Date('2024-11-05'); // replace with anniversary
 setInterval(() => {
 const now = new Date();
 const diff = now - target;
