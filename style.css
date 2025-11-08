@@ -1,0 +1,58 @@
+/* GENERAL STYLES */
+body {
+margin: 0;
+padding: 0;
+font-family: 'Comic Sans MS', cursive, sans-serif;
+background: #faf4ee;
+color: #444;
+}
+
+.landing {
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: url('assets/images/background.jpg') center/cover no-repeat;
+text-shadow: 0 0 10px white;
+}
+
+h1 {
+font-size: 3rem;
+margin-bottom: 0.5rem;
+}
+
+.section {
+padding: 50px 20px;
+max-width: 900px;
+margin: auto;
+}
+
+/* GALLERY */
+.gallery {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 20px;
+}
+
+.gallery img {
+width: 100%;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* MEMORY CARDS */
+.memory-card {
+background: #fff;
+padding: 20px;
+margin: 20px 0;
+border-radius: 12px;
+box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+/* COUNTDOWN */
+#countdown {
+font-size: 2rem;
+text-align: center;
+margin-top: 20px;
+}
