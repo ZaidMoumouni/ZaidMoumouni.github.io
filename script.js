@@ -1,5 +1,24 @@
+// STORY CLICK SYSTEM
+const screens = document.querySelectorAll('.story-screen');
+let index = 0;
+
+screens.forEach((screen, i) => {
+const btn = screen.querySelector('.next-btn');
+btn.addEventListener('click', () => {
+screen.classList.remove('active');
+
+if (btn.dataset.end) {
+document.getElementById('gallery').scrollIntoView({ behavior: 'smooth' });
+return;
+}
+
+index++;
+screens[index].classList.add('active');
+});
+});
+
 // COUNTDOWN TIMER
-const target = new Date('2024-11-05'); // replace with anniversary
+const target = new Date('2022-01-01'); // replace with anniversary
 setInterval(() => {
 const now = new Date();
 const diff = now - target;
