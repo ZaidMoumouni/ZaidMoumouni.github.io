@@ -41,6 +41,35 @@ border-radius: 10px;
 box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
+/* STORY SCREENS */
+#story-container {
+margin-top: 20px;
+}
+.story-screen {
+display: none;
+background: #fff8f4;
+padding: 25px;
+border-radius: 14px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+font-size: 1.2rem;
+}
+.story-screen.active {
+display: block;
+}
+.next-btn {
+margin-top: 15px;
+padding: 10px 20px;
+font-size: 1rem;
+background: #ffb7c5;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+.next-btn:hover {
+background: #ff9fb1;
+}
+
 /* MEMORY CARDS */
 .memory-card {
 background: #fff;
